@@ -53,8 +53,11 @@
             <button type="button" class="btn btn-clear close float-right"></button>
           </div>
           <div class="modal-body no-max-height">
-            <div class="content">
-              <textarea id="csr" rows="47" cols="65" readonly="readonly"></textarea>
+            <div class="content p-centered">
+              <textarea class="csr-style" id="csr" rows="10" cols="70" readonly="readonly"></textarea>
+              <p><button id="btn_download_csr" class="btn centered">Download CSR</button></p>
+              <textarea class="csr-style" id="private_key" rows="10" cols="70" readonly="readonly"></textarea>
+              <p><button id="btn_download_privatekey" class="btn centered">Download PrivateKey</button></p>
             </div>
           </div>
           <div class="modal-footer">
